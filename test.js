@@ -1,1 +1,1 @@
-# testjs
+window.BalanceLoaded();
