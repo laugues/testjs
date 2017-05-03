@@ -1,6 +1,6 @@
 window.BalanceLoaded();
 
-
+console.log('fuck');
     function _load(callback) {
         var defaultConfig = {};
             var xhttp = new XMLHttpRequest();
@@ -14,7 +14,7 @@ window.BalanceLoaded();
     }
 
 
-var BALANCE = {
+global BALANCE = {
   SERVER_URL : null,
   init : function (params){
      SERVER_URL = params.SERVER_URL;
