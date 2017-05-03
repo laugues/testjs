@@ -18,7 +18,7 @@ console.log('fuck');
                   callback(JSON.parse(xhttp.responseText));
                 }
             };
-            xhttp.open("GET", SERVER_URL+"/api/rest/suppliers", false);
+            xhttp.open("GET", SERVER_URL+"/api/rest/masterdata/suppliers", false);
             xhttp.send();
     }
 
