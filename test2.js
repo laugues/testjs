@@ -1,4 +1,4 @@
-global BALANCE = {
+var BALANCE = {
   SERVER_URL : null,
   init : function (params){
      SERVER_URL = params.SERVER_URL;
