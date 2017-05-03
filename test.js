@@ -21,8 +21,5 @@ var BALANCE = {
     },
   getAllSuppliers : function (callback){
     _load(callback);
-}
-  
-
-
-}
+};
+ 
