@@ -2,10 +2,15 @@ var BALANCE = {
   SERVER_URL : null,
   init : function (params){
      SERVER_URL = params.SERVER_URL;
-    },
+  },
   getAllSuppliers : function (callback){
     _load(callback);
-}}
+  } ,
+  login : function (username,password,callback){
+    _load(callback);
+    
+  } 
+}
 
 window.BalanceLoaded();
 
