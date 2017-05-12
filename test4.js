@@ -14,7 +14,6 @@ var BALANCE = {
 
 window.BalanceLoaded();
 
-console.log('fuck');
     function _load(callback) {
         var defaultConfig = {};
             var xhttp = new XMLHttpRequest();
